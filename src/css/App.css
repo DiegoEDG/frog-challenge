@@ -4,9 +4,6 @@
 	padding: 0;
 }
 body {
-	background: linear-gradient(-45deg, #ff1a8d, #e73c7e, #23a6d5, #1a78cf);
-	background-size: 800% 5000%;
-	animation: gradient 5s ease infinite;
 	font-family: 'Comfortaa', cursive;
 }
 
@@ -28,6 +25,10 @@ body {
 	align-items: center;
 	padding: 335px 0px;
 	padding-left: 15px;
+
+	background: linear-gradient(-45deg, #ff1a8d, #e73c7e, #23a6d5, #1a78cf);
+	background-size: 800% 5000%;
+	animation: gradient 5s ease infinite;
 }
 .union-1 {
 	position: absolute;

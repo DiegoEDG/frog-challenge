@@ -1,13 +1,16 @@
-import '../css/App.css';
-
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import '../css/App.css';
 
 export const MainScreen = () => {
 	return (
 		<div>
 			<div className="main-container">
 				<div className="container">
-					<h1 className="title">photo</h1>
+					<h1 className="title animate__animated animate__backInRight">
+						photo
+					</h1>
 					<div className="logo">
 						<div className="union-1"></div>
 						<div className="union-2"></div>
@@ -15,12 +18,16 @@ export const MainScreen = () => {
 						<div className="union-4"></div>
 					</div>
 				</div>
-				<button className="about">ABOUT US</button>
+				<Link to="/about">
+					<button className="about">ABOUT US</button>
+				</Link>
 			</div>
 			<div className="account">
-				<button className="login">
-					<b>LOG IN</b>
-				</button>
+				<Link to="/home">
+					<button to="/home" className="login">
+						<b>LOG IN</b>
+					</button>
+				</Link>
 				<button className="register">
 					<b>REGISTER</b>
 				</button>

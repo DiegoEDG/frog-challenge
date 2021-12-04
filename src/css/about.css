@@ -1,0 +1,35 @@
+.about-title {
+	text-align: center;
+	margin-top: 20px;
+}
+.icon {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.content {
+	padding: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.image-container {
+	width: 250px;
+}
+.image {
+	max-width: 100%;
+	max-height: auto;
+	border-radius: 5px;
+}
+.register-about {
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
