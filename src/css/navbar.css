@@ -1,0 +1,28 @@
+.navbar {
+	border: 1px solid rgba(0, 0, 0, 0.383);
+	width: 375px;
+	height: 60px;
+	margin-left: 0px !important;
+	position: fixed;
+	bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+
+.main-button {
+	background: linear-gradient(#ff00d6, #ff4d00);
+	border-radius: 20px;
+	width: 70px;
+	height: 40px;
+	border: none;
+	color: #fff;
+}
+
+.navbar-button {
+	background: none;
+	border: none;
+}

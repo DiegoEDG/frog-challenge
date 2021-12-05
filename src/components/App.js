@@ -1,4 +1,3 @@
-import { MainScreen } from './MainScreen';
 import { RouterComponent } from './RouterComponent';
 import 'animate.css';
 

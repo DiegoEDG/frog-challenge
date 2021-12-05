@@ -21,19 +21,19 @@ export const AboutScreen = () => {
 			<div className="content">
 				<div className="content-item animate__animated animate__fadeInDown">
 					<div className="image-container">
-						<img className="image" src="../assets/collage.jpg" />
+						<img className="image" src="../assets/collage.jpg" alt="collage" />
 					</div>
 					<h2>Collages</h2>
 				</div>
 				<div className="content-item animate__animated animate__fadeInDown">
 					<div className="image-container">
-						<img className="image" src="../assets/neon.jpg" />
+						<img className="image" src="../assets/neon.jpg" alt="neon" />
 					</div>
 					<h2>Edition</h2>
 				</div>
 				<div className="content-item animate__animated animate__fadeInDown">
 					<div className="image-container">
-						<img className="image" src="../assets/share.jpg" />
+						<img className="image" src="../assets/share.jpg" alt="share" />
 					</div>
 					<h2>Connect with friends</h2>
 				</div>
