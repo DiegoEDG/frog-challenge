@@ -29,7 +29,7 @@ export const NavBar = () => {
 			<button className="navbar-button">
 				<FontAwesomeIcon icon={faComment} size="lg" />
 			</button>
-			<Link>
+			<Link to="/profile">
 				<button className="navbar-button">
 					<FontAwesomeIcon icon={faUserCircle} size="lg" />
 				</button>

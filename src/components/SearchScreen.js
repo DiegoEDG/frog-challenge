@@ -13,11 +13,13 @@ export const SearchScreen = () => {
 		<div>
 			<div className="search-component">
 				<div className="search-box">
-					<h1 className="home-title">Search</h1>
+					<h1 className="home-title animate__animated animate__fadeIn">
+						Search
+					</h1>
 					<FontAwesomeIcon
 						icon={faHeart}
 						size="2x"
-						className="icon-fav animate__animated animate__fadeInDown"
+						className="icon-fav animate__animated animate__fadeIn"
 					/>
 				</div>
 				<SearchBar setWord={setWord} />

@@ -18,7 +18,10 @@ export const SearchBar = ({ setWord }) => {
 	};
 
 	return (
-		<form onSubmit={handleSubmit}>
+		<form
+			onSubmit={handleSubmit}
+			className="animate__animated animate__fadeIn"
+		>
 			<input
 				className="search-bar"
 				type="text"
