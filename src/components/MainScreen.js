@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import '../css/App.css';
 
 export const MainScreen = () => {
 	return (
-		<div>
+		<div className="main-component">
 			<div className="main-container">
 				<div className="container">
 					<h1 className="title animate__animated animate__backInRight">

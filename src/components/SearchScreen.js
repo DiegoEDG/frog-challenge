@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import '../css/gallery.css';
 import { NavBar } from './NavBar';
+import { SeeMoreButton } from './SeeMoreButton';
 
 export const SearchScreen = () => {
 	const [word, setWord] = useState('');
@@ -29,12 +30,8 @@ export const SearchScreen = () => {
 				<ol>
 					<Gallery key={word} word={word} />
 				</ol>
-				{word && (
-					<button className="see-more">
-						<b>SEE MORE</b>
-					</button>
-				)}
 			</div>
+			{word && <SeeMoreButton />}
 			<NavBar />
 		</div>
 	);

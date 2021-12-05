@@ -3,6 +3,7 @@ import '../css/profile.css';
 import { GalleryPhoto } from './GalleryPhoto';
 import { NavBar } from './NavBar';
 import { ImagesProfile } from '../data/data';
+import { SeeMoreButton } from './SeeMoreButton';
 
 export const ProfileScreen = () => {
 	return (
@@ -27,6 +28,7 @@ export const ProfileScreen = () => {
 				</div>
 			</div>
 			<GalleryPhoto Images={ImagesProfile} />
+			<SeeMoreButton />
 			<NavBar />
 		</div>
 	);

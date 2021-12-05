@@ -26,9 +26,11 @@ export const NavBar = () => {
 			<button className="main-button">
 				<FontAwesomeIcon icon={faPlus} size="lg" />
 			</button>
-			<button className="navbar-button">
-				<FontAwesomeIcon icon={faComment} size="lg" />
-			</button>
+			<Link to="/chat">
+				<button className="navbar-button">
+					<FontAwesomeIcon icon={faComment} size="lg" />
+				</button>
+			</Link>
 			<Link to="/profile">
 				<button className="navbar-button">
 					<FontAwesomeIcon icon={faUserCircle} size="lg" />

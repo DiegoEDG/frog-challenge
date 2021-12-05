@@ -1,0 +1,10 @@
+.chat-component {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+.chat-title {
+	margin: 15px 0px;
+}

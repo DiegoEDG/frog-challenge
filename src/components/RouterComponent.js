@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import { AboutScreen } from './AboutScreen';
+import { ChatScreen } from './ChatScreen';
 import { HomeScreen } from './HomeScreen';
 import { MainScreen } from './MainScreen';
 import { ProfileScreen } from './ProfileScreen';
@@ -22,6 +23,7 @@ export const RouterComponent = () => {
 					<Route exact path="/search" component={SearchScreen} />
 					<Route exact path="/profile" component={ProfileScreen} />
 					<Route exact path="/about" component={AboutScreen} />
+					<Route exact path="/chat" component={ChatScreen} />
 					<Redirect to="/" />
 				</Switch>
 			</>

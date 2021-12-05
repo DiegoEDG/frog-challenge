@@ -46,3 +46,40 @@ export const ImagesProfile = [
 	'feed-f5',
 	'feed-f6'
 ];
+export const chatInfo = [
+	{
+		name: 'James',
+		message: 'Thank you! That was very helpful!',
+		photo: 'chat-c1'
+	},
+	{
+		name: 'Will Kenny',
+		message: 'I know... I’m trying to get the funds.',
+		photo: 'chat-c2'
+	},
+	{
+		name: 'Beth Williams',
+		message: 'I’m looking for tips around capturing the milky way. ',
+		photo: 'chat-c3'
+	},
+	{
+		name: 'Rev Shawn',
+		message:
+			'Wanted to ask if you’re available for a portrait shoot next week.',
+		photo: 'chat-c4'
+	}
+];
+export const aboutInfo = [
+	{
+		title: 'Collages',
+		image: 'about-a1'
+	},
+	{
+		title: 'Edition',
+		image: 'about-a2'
+	},
+	{
+		title: 'Connect with friends',
+		image: 'about-a3'
+	}
+];

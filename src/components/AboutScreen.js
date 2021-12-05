@@ -1,14 +1,14 @@
 import React from 'react';
-import '../css/about.css';
-import '../css/App.css';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import { AboutItem } from './AboutItem';
+import { aboutInfo } from '../data/data';
+import '../css/about.css';
 
 export const AboutScreen = () => {
 	return (
-		<div>
+		<div className="about-component">
 			<Link to="/">
 				<FontAwesomeIcon
 					icon={faChevronLeft}
@@ -19,24 +19,7 @@ export const AboutScreen = () => {
 				WHAT I CAN DO IN PHOTO?
 			</h1>
 			<div className="content">
-				<div className="content-item animate__animated animate__fadeInDown">
-					<div className="image-container">
-						<img className="image" src="../assets/collage.jpg" alt="collage" />
-					</div>
-					<h2>Collages</h2>
-				</div>
-				<div className="content-item animate__animated animate__fadeInDown">
-					<div className="image-container">
-						<img className="image" src="../assets/neon.jpg" alt="neon" />
-					</div>
-					<h2>Edition</h2>
-				</div>
-				<div className="content-item animate__animated animate__fadeInDown">
-					<div className="image-container">
-						<img className="image" src="../assets/share.jpg" alt="share" />
-					</div>
-					<h2>Connect with friends</h2>
-				</div>
+				<AboutItem aboutInfo={aboutInfo} />
 				<button className="register register-about">
 					<b>REGISTER</b>
 				</button>

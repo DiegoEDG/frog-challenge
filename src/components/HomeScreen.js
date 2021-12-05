@@ -4,6 +4,7 @@ import { Carousel } from './Carousel';
 import { GalleryPhoto } from './GalleryPhoto';
 import { NavBar } from './NavBar';
 import { users, imagesHome } from '../data/data';
+import { SeeMoreButton } from './SeeMoreButton';
 
 export const HomeScreen = () => {
 	return (
@@ -15,6 +16,7 @@ export const HomeScreen = () => {
 				<h4 className="title-home">BROWSE ALL</h4>
 			</div>
 			<GalleryPhoto Images={imagesHome} />
+			<SeeMoreButton />
 			<NavBar />
 		</div>
 	);

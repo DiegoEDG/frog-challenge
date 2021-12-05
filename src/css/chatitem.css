@@ -1,0 +1,26 @@
+.chat-item {
+	display: flex;
+	flex-direction: column;
+	border-top: solid 1px rgba(80, 80, 80, 0.335);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-img-chat {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 10px;
+}
+.chat-box {
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid 1px rgba(80, 80, 80, 0.335);
+	align-items: center;
+}
+.username-chat {
+	margin-bottom: 10px;
+}
+.chat-message {
+	color: rgb(95, 95, 95);
+}

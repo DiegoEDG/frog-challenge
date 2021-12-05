@@ -6,7 +6,9 @@
 body {
 	font-family: 'Comfortaa', cursive;
 }
-
+.main-component {
+	height: 812px;
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
