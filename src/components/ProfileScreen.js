@@ -2,16 +2,9 @@ import React from 'react';
 import '../css/profile.css';
 import { GalleryPhoto } from './GalleryPhoto';
 import { NavBar } from './NavBar';
+import { ImagesProfile } from '../data/data';
 
 export const ProfileScreen = () => {
-	const feedImages = [
-		'feed-f1',
-		'feed-f2',
-		'feed-f3',
-		'feed-f4',
-		'feed-f5',
-		'feed-f6'
-	];
 	return (
 		<div>
 			<div className="profile">
@@ -33,7 +26,7 @@ export const ProfileScreen = () => {
 					</button>
 				</div>
 			</div>
-			<GalleryPhoto feedImages={feedImages} />
+			<GalleryPhoto Images={ImagesProfile} />
 			<NavBar />
 		</div>
 	);

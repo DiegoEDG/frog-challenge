@@ -1,8 +1,12 @@
 .home-component {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin-left: 30px;
-	margin-top: 50px;
+	margin-left: 10px;
+	margin-top: 25px;
 }
 .home-title {
 	font-family: 'Comfortaa', cursive;
+	margin-bottom: 20px;
+}
+.title-home {
+	margin-bottom: 20px;
 }

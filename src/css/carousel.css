@@ -1,0 +1,58 @@
+.image-container-carousel {
+	display: flex;
+	flex-direction: row;
+	width: 365px;
+	height: 300px;
+	overflow: scroll;
+	align-content: space-between;
+	margin-bottom: 10px;
+	padding: auto;
+}
+.image-feed-container-carousel {
+	height: 240px;
+	width: 340px;
+	border-radius: 3px;
+	margin: 0px 5px;
+	align-self: center;
+	display: flex;
+	align-items: center;
+}
+
+.image-feed-carousel {
+	max-width: 340px;
+	max-height: 230px;
+	border-radius: 3px;
+	padding: auto 0px;
+}
+.profile-img-carousel {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 8px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.carousel-titles {
+	margin-top: 5px;
+}
+.carousel-itmes {
+	display: flex;
+	flex-direction: column;
+}
+.carousel-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.info-user {
+	display: flex;
+	flex-direction: row;
+}
+.username {
+	color: rgb(129, 129, 129);
+}
+.icon-carousel {
+	margin-right: 5px;
+}

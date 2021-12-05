@@ -1,11 +1,11 @@
 import React from 'react';
 import '../css/galleryfeed.css';
 
-export const GalleryPhoto = ({ feedImages }) => {
+export const GalleryPhoto = ({ Images }) => {
 	return (
 		<div className="image-container animate__animated animate__fadeIn">
-			{feedImages.map((element) => (
-				<div className="image-feed-container">
+			{Images.map((element) => (
+				<div key={element} className="image-feed-container">
 					<img
 						src={`../assets/${element}.jpg`}
 						className="image-feed"
