@@ -3,10 +3,12 @@ import '../css/galleryfeed.css';
 
 export const GalleryPhoto = ({ Images }) => {
 	const galleryView = () => {
-		document.querySelector('.popup').style.display = 'block';
-		document.querySelector('.popup img').src = document
-			.querySelector('.image-feed')
-			.getAttribute('src');
+		document.querySelectorAll('.image-feed-container img').forEach((image) => {
+			image.onclick = () => {
+				document.querySelector('.popup').style.display = 'block';
+				document.querySelector('.popup img').src = image.getAttribute('src');
+			};
+		});
 	};
 
 	const galleryExit = () => {
